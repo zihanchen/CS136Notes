@@ -14,14 +14,14 @@ Pros:
 * afdasfas
 
 Example:
-```C
+```
 #include <stdio.h>
 int main() {
 	printf("Hello World!\n");
 	return 0;
 }
 ```
-```Scheme
+```
 (define (add a b)
 	(+ a b))
 ```
