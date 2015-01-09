@@ -21,3 +21,7 @@ int main() {
 	return 0;
 }
 ```
+```Scheme
+(define (add a b)
+	(+ a b))
+```
