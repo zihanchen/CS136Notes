@@ -19,9 +19,9 @@ const int c = -5 / 2; //-2!!
 ```
 
 ##Function definations
-*In C braces({})indecatest the beginning and end of the function body
+* In C braces({})indecatest the beginning and end of the function body
 
-*The return keyword is placed before the expression to be returned
+* The return keyword is placed before the expression to be returned
 
 ```C
 //C function:
@@ -35,3 +35,15 @@ errors do not exist.
 ```C
 //C:
 my_sqr("hello") //=> will not run!!!
+```
+
+##Boolean expressions
+
+In C,"false" is represented by zero(0)
+
+
+Example:
+```C
+(4 + (3 == 3) == (7 - 2))// the value is one!!!
+```
+
