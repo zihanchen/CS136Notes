@@ -9,6 +9,8 @@ The multiplication operators are left-associative
 * When working with integers, the division operator trunacates
 any intermediate value and behaves the same as the Racket 
 quotient funcion
+
+
 Example:
 ```C
 const int a = (4 * 5) / 2; //10
