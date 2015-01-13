@@ -1,27 +1,18 @@
 # Lecture 01
 
-## Module
+##C operators
 
-Module is balabala....
+The multiplication operators are left-associative
 
-Pros:
-
-1. bala
-2. pala
-
-* afadsf
-* afasdf
-* afdasfas
-
+* operator in C is the same as Racket
+* they are written in normal ways
+* When working with integers, the division operator trunacates
+any intermediate value and behaves the same as the Racket 
+quotient funcion
 Example:
+```C
+const int a = (4 * 5) / 2; //10
+const int b = 4 * (5 / 2); //8!!
+const int c = -5 / 2; //-2!!
 ```
-#include <stdio.h>
-int main() {
-	printf("Hello World!\n");
-	return 0;
-}
-```
-```
-(define (add a b)
-	(+ a b))
-```
+
